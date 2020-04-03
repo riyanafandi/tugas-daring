@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 5px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      padding: 20px 40px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .kiri,
+    .kanan,
+    .atas,
+    .bawah,
+    .bounce {
+      width: 500px;
+      height: 100px;
+      text-align: center;
+      font-size: 30px;
+      border: 2px solid;
+    }
+
+    .kiri {
+      float: left;
+    }
+
+    .kanan {
+      float: left;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      background-color: blueviolet;
+      padding: 10px 0;
+    }
+
+    .bounce {
+      width: 800px;
+      height: 300px;
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+
+    .bounce2 {
+      width: 800px;
+      height: 300px;
+      font-size: 40px;
+      border: 2px solid;
+    }
+
+    footer {
+      background-color: black;
+      color: #fff;
+      border: none;
+      font-size: 30px;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Tugas membuat Tag Marquee</h1>
+  <div class="container">
+    <marquee class="kiri">text berjalan dari kanan ke kiri</marquee>
+    <br>
+    <marquee class="kanan" direction="right">text berjalan dari kiri ke kanan</marquee>
+    <marquee class="atas" direction="up">text berjalan dari bawah keatas</marquee>
+    <marquee class="bawah" direction="down">text berjalan dari atas kebawah</marquee>
+    <br><br>
+    <marquee class="bounce" direction="up" behavior="alternate">Text memantul dari atas ke bawah dan dari bawah keatas
+    </marquee>
+    <marquee class="bounce2" behavior="alternate">Text memantul dari kiri kekanan <br> dan dari kanan kekiri
+    </marquee>
+  </div>
+  <footer>
+    <center>Copyright &copy; Riyan_burg</center>
+  </footer>
+</body>
+
+</html>
